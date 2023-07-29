@@ -50,15 +50,19 @@ export const ImgHeroWrapper = styled(Image)`
     }
 `;
 
-export const DivHero = styled.div`
+type PropsDivHero = {
+    timer: number;
+};
+
+export const DivHero = styled.div<PropsDivHero>`
     position: relative;
     border-radius: 1rem;
-    animation: showUp 2s;
+    animation: showUp ${(props) => props.timer}s;
     @keyframes showUp {
         0% {
             opacity: 0;
         }
-        50% {
+        70% {
             opacity: 0;
         }
         100% {

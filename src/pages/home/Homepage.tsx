@@ -33,7 +33,7 @@ export default function Homepage() {
 
     return (
         <DivContainer>
-            <DivHero>
+            <DivHero timer={1.5}>
                 <DivMain>
                     <DivMainContainer>
                         <Separator triggerAnimation={triggerAnimation} />

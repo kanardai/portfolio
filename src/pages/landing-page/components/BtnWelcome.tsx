@@ -19,7 +19,7 @@ const LinkWelcome = styled(Link)`
     left: 1px;
     border-radius: 15px;
     margin: auto;
-    padding: 14px 35px;
+    padding: 14px 33px;
     color: ${colorPalette.cyanLight};
     font-size: 20px;
     font-family: ${fonts.basic};

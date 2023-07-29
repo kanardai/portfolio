@@ -12,6 +12,7 @@ import {
 } from '@/app/theme';
 import heroImg from './images/hero.png';
 import imgCache from '@/utils/imgCache';
+import Welcome from '@/components/welcome/Welcome';
 
 const images = [
     'https://github.com/kanardai/portfolio/blob/master/public/images/home/hero.png?raw=true',
@@ -23,7 +24,8 @@ export default function LandingPage() {
 
     return (
         <DivContainer>
-            <DivHero>
+            <Welcome />
+            <DivHero timer={7}>
                 <ImgHero
                     src={heroImg}
                     alt='landingImage'
