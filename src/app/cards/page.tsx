@@ -1,4 +1,4 @@
 'use client';
-import { ExpandingCards } from '@/pages/expanding-cards/ExpandingCards';
+import { ExpandingCards } from '@/lib/expanding-cards/ExpandingCards';
 
 export default ExpandingCards;

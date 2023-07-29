@@ -1,3 +1,3 @@
-import LandingPage from '@/pages/landing-page/LandingPage';
+import LandingPage from '@/lib/landing-page/LandingPage';
 
 export default LandingPage;

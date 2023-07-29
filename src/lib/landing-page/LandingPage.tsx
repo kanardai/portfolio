@@ -1,6 +1,6 @@
 'use client';
 import styled from '@emotion/styled';
-import BtnWelcome from '@/pages/landing-page/components/BtnWelcome';
+import BtnWelcome from '@/lib/landing-page/components/BtnWelcome';
 
 import {
     DivContainer,

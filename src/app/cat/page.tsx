@@ -1,4 +1,4 @@
 'use client';
-import CatInWindow from '@/pages/cat-in-window/CatInWindow';
+import CatInWindow from '@/lib/cat-in-window/CatInWindow';
 
 export default CatInWindow;

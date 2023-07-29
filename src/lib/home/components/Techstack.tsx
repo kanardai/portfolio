@@ -1,8 +1,8 @@
 import styled from '@emotion/styled';
 import { H1Heading } from '../theme';
 import { iconNames } from '../mainpageData';
-import Icon from './icons/Icon';
-import GitIcon from './icons/GitIcon';
+import Icon from '../../../lib/home/components/icons/Icon';
+import GitIcon from '../../../lib/home/components/icons/GitIcon';
 
 export default function Techstack() {
     return (
