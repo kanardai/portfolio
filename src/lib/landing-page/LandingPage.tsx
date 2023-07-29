@@ -15,8 +15,8 @@ import imgCache from '@/utils/imgCache';
 import Welcome from '@/components/welcome/Welcome';
 
 const images = [
-    'https://github.com/kanardai/portfolio/blob/master/public/images/home/hero.png?raw=true',
-    'https://github.com/kanardai/portfolio/blob/master/public/images/landing-page/hero.png?raw=true',
+    'https://kanardai-portfolio.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero.57d34816.png&w=1920&q=75',
+    'https://kanardai-portfolio.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero.601383ef.png&w=1920&q=75',
 ];
 
 export default function LandingPage() {
