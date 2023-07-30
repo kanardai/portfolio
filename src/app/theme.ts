@@ -9,6 +9,7 @@ export const colorPalette = {
     whiteGrey: '#f9f7db',
     violet: '#7200ca',
     violet70: '#7200ca70',
+    purpleDark: '#2c2730',
     yellow: '#ffc800',
     yellow70: '#ffc80070',
     yellow40: '#ffc80040',

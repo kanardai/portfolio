@@ -33,7 +33,11 @@ function Projects({ handleClick }: PropsHandleClick) {
                 btnValue={MainpageDataNames.CAT}
                 handleClick={handleClick}
             />
-           
+            <ProjectButton
+                name={MainpageDataNames.SQUARE}
+                btnValue={MainpageDataNames.SQUARE}
+                handleClick={handleClick}
+            />
         </DivProjects>
     );
 }

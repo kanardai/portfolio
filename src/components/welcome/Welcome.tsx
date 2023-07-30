@@ -24,9 +24,7 @@ const DivContainer = styled.div`
     align-items: center;
     justify-content: center;
     @media (${mediaSize.mediaMobile}) {
-        transform: scale(0.7) rotate(-90deg);
-        top: 380px;
-        left: 333px;
+        transform: scale(0.7) rotate(-90deg);       
     }
 `;
 

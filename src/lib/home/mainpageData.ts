@@ -10,7 +10,7 @@ export enum MainpageDataNames {
     BOOTCAMP = 'bootcampPortfolio',
     CARDS = 'expandingCards',
     CAT = 'catInWindow',
-   
+    SQUARE = 'square',
 }
 
 export const mainpageData: Record<MainpageDataNames, MainpageDataTypes> = {
@@ -39,6 +39,13 @@ export const mainpageData: Record<MainpageDataNames, MainpageDataTypes> = {
         gitlink:
             'https://github.com/kanardai/portfolio/tree/master/src/components/cat-in-window',
         webpagelink: '/cat',
+    },
+    [MainpageDataNames.SQUARE]: {
+        heading: `Hover the Square`,
+        description: `Easy React CSS app. Available only on desktop devices, because of hover effect. `,
+        gitlink:
+            'https://github.com/kanardai/portfolio/tree/master/src/components/cat-in-window',
+        webpagelink: '/square',
     },
 };
 
