@@ -14,6 +14,7 @@ import Separator from './components/Separator';
 import Description from './components/Description';
 import Projects from './components/Projects';
 import Techstack from './components/Techstack';
+import Cursor from '@/components/cursor/Cursor';
 
 export default function Homepage() {
     const [activeData, setActiveData] = useState<MainpageDataNames>(
@@ -32,7 +33,8 @@ export default function Homepage() {
     }
 
     return (
-        <DivContainer>
+        <DivContainer style={{ cursor: 'none' }}>
+            <Cursor />
             <DivHero timer={1.5}>
                 <DivMain>
                     <DivMainContainer>

@@ -28,6 +28,7 @@ const LinkWelcome = styled(Link)`
     letter-spacing: 2px;
     background-color: ${colorPalette.greyDark};
     font-weight: bolder;
+    cursor: none;
 
     :hover {
         background: ${colorPalette.cyanLight};

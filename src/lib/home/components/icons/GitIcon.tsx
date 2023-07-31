@@ -9,7 +9,7 @@ type PropsGitIcon = {
 
 export default function GitIcon({ gitUrl = '' }: PropsGitIcon) {
     return (
-        <Link href={gitUrl}>
+        <Link href={gitUrl} style={{cursor: 'none'}}>
             <DivIconWrapper>
                 <SVGContent viewBox='0 0 2500 2500'>
                     <path

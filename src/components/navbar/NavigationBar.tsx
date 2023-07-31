@@ -62,7 +62,6 @@ const DivToggle = styled.div<PropsToggle>`
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
     transition: transform 0.8s;
     transform: ${(props) =>
         props.isActive ? 'rotate(180deg)' : 'rotate(0deg)'};

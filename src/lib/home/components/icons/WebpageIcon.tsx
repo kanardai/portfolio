@@ -10,7 +10,7 @@ type PropsWebpageIcon = {
 
 export default function WebpageIcon({ webpageUrl = '' }: PropsWebpageIcon) {
     return (
-        <Link href={webpageUrl}>
+        <Link href={webpageUrl} style={{cursor: 'none'}}>
             <DivIconWrapper>
                 <Image src={webpage} alt='webpageIcon' height='35'/>
             </DivIconWrapper>

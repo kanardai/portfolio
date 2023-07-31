@@ -3,6 +3,7 @@ import { DivContainer, colorPalette, mediaSize } from '@/app/theme';
 import Square from './components/Square';
 import styled from '@emotion/styled';
 import NavigationBar from '@/components/navbar/NavigationBar';
+import Cursor from '@/components/cursor/Cursor';
 
 export default function HoverSquare() {
     const numberOfDivs: number[] = Array.from(
@@ -12,6 +13,7 @@ export default function HoverSquare() {
 
     return (
         <DivPageContainer>
+            
             <NavigationBar />
             {numberOfDivs.map((key) => (
                 <Square key={key} />
@@ -30,4 +32,5 @@ const DivPageContainer = styled(DivContainer)`
         black 200%
     );
     overflow: hidden;
+    
 `;

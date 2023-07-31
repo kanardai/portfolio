@@ -13,6 +13,7 @@ import {
 import heroImg from './images/hero.png';
 import imgCache from '@/utils/imgCache';
 import Welcome from '@/components/welcome/Welcome';
+import Cursor from '@/components/cursor/Cursor';
 
 const images = [
     'https://kanardai-portfolio.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero.57d34816.png&w=1920&q=75',
@@ -23,7 +24,8 @@ export default function LandingPage() {
     imgCache(images);
 
     return (
-        <DivContainer>
+        <DivContainer style={{cursor: 'none'}}>
+            <Cursor />
             <Welcome />
             <DivHero timer={7}>
                 <ImgHero

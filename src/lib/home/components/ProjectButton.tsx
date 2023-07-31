@@ -24,7 +24,6 @@ const DivWrapperButton = styled.div`
     flex-direction: column;
     color: ${colorPalette.whiteGrey};
     font-size: ${fonts.sizes.normal};
-    cursor: pointer;
 `;
 
 const DivProjectButton = styled.div`
