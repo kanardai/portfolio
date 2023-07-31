@@ -17,7 +17,7 @@ export const mainpageData: Record<MainpageDataNames, MainpageDataTypes> = {
     [MainpageDataNames.WELCOME]: {
         heading: `Welcome.`,
         description: `My name is Aneta, I'm front-end developer based in Czech Republic. This portfolio serves as a sample of small projects that I was tempted to try. At the same time, I always want to learn something new and stay up-to-date in my field. I enjoy playing with  graphics and tweaking the design to the last detail.`,
-        gitlink: 'https://github.com/kanardai',
+        gitlink: 'https://github.com/kanardai/portfolio',
         webpagelink: 'https://www.kanardai.eu',
     },
     [MainpageDataNames.BOOTCAMP]: {
@@ -30,21 +30,21 @@ export const mainpageData: Record<MainpageDataNames, MainpageDataTypes> = {
         heading: `Expanding Cards`,
         description: `Simple image gallery created by playing with css styles.`,
         gitlink:
-            'https://github.com/kanardai/portfolio/tree/master/src/components/expanding-cards',
+            'https://github.com/kanardai/portfolio/tree/main/src/lib/expanding-cards',
         webpagelink: '/cards',
     },
     [MainpageDataNames.CAT]: {
         heading: `Cat in window`,
         description: `ONLY CSS kitty animation.`,
         gitlink:
-            'https://github.com/kanardai/portfolio/tree/master/src/components/cat-in-window',
+            'https://github.com/kanardai/portfolio/tree/main/src/lib/cat-in-window',
         webpagelink: '/cat',
     },
     [MainpageDataNames.SQUARE]: {
         heading: `Hover the Square`,
         description: `Easy React CSS app. Available only on desktop devices, because of hover effect. `,
         gitlink:
-            'https://github.com/kanardai/portfolio/tree/master/src/components/cat-in-window',
+            'https://github.com/kanardai/portfolio/tree/main/src/lib/hover-square',
         webpagelink: '/square',
     },
 };
