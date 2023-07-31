@@ -1,3 +1,4 @@
+import { mediaSize } from '@/app/theme';
 import useMousePosition from '@/utils/useMousePosition';
 import styled from '@emotion/styled';
 
@@ -9,14 +10,14 @@ const Cursor = () => {
 export default Cursor;
 
 type PropsDivArrow = {
-    x: number | null;
-    y: number | null;
+    x: number;
+    y: number;
 };
 
 const DivArrow = styled.div<PropsDivArrow>`
     cursor: none;
     position: fixed;
-    left: ${(props) => `${props.x !== null ? props.x - 10 : props.x}px`};
+    left: ${(props) => `${props.x - 10}px`};
     top: ${(props) => `${props.y}px`};
 
     width: 40px;
@@ -25,4 +26,8 @@ const DivArrow = styled.div<PropsDivArrow>`
     background-size: 100%;
     z-index: 999;
     pointer-events: none;
+    @media (${mediaSize.mediaMobile}) {
+        background: none;
+        cursor: auto;
+    }
 `;

@@ -2,12 +2,12 @@ import { useEffect, useState } from 'react';
 
 export default function useMousePosition() {
     type Position = {
-        x: null | number;
-        y: null | number;
+        x: number;
+        y: number;
     };
     const [mousePosition, setMousePosition] = useState<Position>({
-        x: null,
-        y: null,
+        x: -50,
+        y: -50,
     });
 
     useEffect(() => {
