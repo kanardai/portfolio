@@ -18,7 +18,7 @@ export const mainpageData: Record<MainpageDataNames, MainpageDataTypes> = {
         heading: `Welcome.`,
         description: `My name is Aneta, I'm front-end developer based in Czech Republic. This portfolio serves as a sample of small projects that I was tempted to try. At the same time, I always want to learn something new and stay up-to-date in my field. I enjoy playing with  graphics and tweaking the design to the last detail.`,
         gitlink: 'https://github.com/kanardai/portfolio',
-        webpagelink: 'https://www.kanardai.eu',
+        webpagelink: 'https://kanardai.netlify.app',
     },
     [MainpageDataNames.BOOTCAMP]: {
         heading: `Bootcamp Portfolio`,
