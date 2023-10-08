@@ -19,6 +19,11 @@ function Projects({ handleClick }: PropsHandleClick) {
                 handleClick={handleClick}
             />
             <ProjectButton
+                name={MainpageDataNames.BAM}
+                btnValue={MainpageDataNames.BAM}
+                handleClick={handleClick}
+            />
+            <ProjectButton
                 name={MainpageDataNames.BOOTCAMP}
                 btnValue={MainpageDataNames.BOOTCAMP}
                 handleClick={handleClick}
